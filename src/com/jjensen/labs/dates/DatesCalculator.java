@@ -61,6 +61,10 @@ public class DatesCalculator {
                 AnniversaryCalculator anniversaryCalc = new AnniversaryCalculator();
                 anniversaryCalc.calculateAnniversary();
                 break;
+            case 3:
+                AgeDifferenceCalculator ageDifferenceCalculator = new AgeDifferenceCalculator();
+                ageDifferenceCalculator.calculateAgeDifference();
+                break;
             case 0:
                 running = false;
                 break;
